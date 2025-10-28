@@ -68,12 +68,6 @@ export default function Home() {
             {/* Example: Show vote data or placeholder */}
             {loading && <p>جاري التحميل...</p>}
             {error && <p className="text-red-500">خطأ: {error}</p>}
-            {voteData && (
-              <div className="bg-gray-100 p-4 rounded">
-                <p>الاسم: {voteData.voterName}</p>
-                <p>عدد الأصوات: {voteData.votesCount}</p>
-              </div>
-            )}
 
             <div>
               <label className="block text-gray-600">الاسم الرباعي :</label>
