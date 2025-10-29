@@ -95,16 +95,7 @@ export default function Home() {
                 className="text-black w-full mt-1 border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"
               />
             </div>
-            <div>
-              <label className="block text-gray-600">
-                رقمك في الكشوف الإنتخابية :
-              </label>
-              <input
-                type="text"
-                value={voteData?.votesCount}
-                className="text-black w-full mt-1 border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"
-              />
-            </div>
+           
           </div>
         </div>
       </div>
